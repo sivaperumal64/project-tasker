@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./tasker2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next page</title>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="div1">
+            <div class="img"><img src="./images/notepad.png" alt=""></div>
+            <div class="next">
+                <p>Task</p>
+                <p id="specialdrop">catagires</p>
+                <div id="show" class="show show2">
+                    <p>Home</p>
+                    <p>None</p>
+                    <p>School</p>
+                    <p>Shopping List</p>
+                    <p>Add New</p>
+                </div>
+
+
+                <p>Settings</p>
+            </div>
+            <div class="last">
+                <p>Logout</p>
+            </div>
+
+        </div>
+        <div class="div2">
+            <div class="child1">
+                <h1>All your Tasks</h1>
+                <div class="child2">
+                    <h3>Tasks</h3>
+                    <div class="child3">
+                        <button onclick="colour1()" id="blue">All</button>
+                        <button onclick="colour2()" id="green">Done</button>
+                        <button onclick="colour3()" id="grey">Not done</button>
+                    </div>
+                </div>
+                <ul id="empty"></ul>
+                <div class="Add">
+                    <button onclick="Popups()">
+                        Add Task</button>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+    <div class="popup" id="popups">
+        <h1>Insert Name</h1>
+        <input type="text" name="username" id="username" placeholder="Task name">
+        <h1>Select A catagires</h1>
+
+        <select name="" id="">
+            <option value="0">none</option>
+            <option value="1">Home</option>
+        </select>
+        <div class="both">
+            <button onclick="Click()">Add</button>
+            <button onclick="Cancel()">Cancel</button>
+        </div>
+
+
+
+    </div>
+    <script src="./tasker.js"></script>
+</body>
+
+</html>

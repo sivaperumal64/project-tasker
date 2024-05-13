@@ -1,0 +1,49 @@
+img.todo{
+  width: 700px;
+  height: 100vh;
+  background-color: grey;
+}
+
+.login{
+
+  padding-left: 200px;
+  padding-top: 100px;
+}
+
+.div1{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.border{
+  width: 260px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.Remember{
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  gap: 4px;
+}
+
+ button{
+  width:270px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: blue;
+  color: aliceblue;
+  font-style: oblique;
+  font-family: cursive;
+}
+
+span{
+  color: blueviolet;
+}
+
+*{
+  background-color:lightgrey;
+
+}
